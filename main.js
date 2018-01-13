@@ -201,7 +201,7 @@ $(document).ready(function() {
         var url = "https://accounts.spotify.com/authorize";
         var client_id = "e2bf28724f4a42fdb25bcf7bf233d355";
         var response_type = "token";
-        var redirect_uri = "http://127.0.0.1:5500/index.html";
+        var redirect_uri = "http://nathan-nash.me/spotify-shuffle/";
         var scope = "playlist-read-private playlist-read-collaborative user-library-read";
 
         var link = url+"?client_id="+client_id+"&redirect_uri="+redirect_uri+"&scope="+scope+"&response_type="+response_type;
