@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #180518;
+}
+
+#player{
+    width: 65vw;
+    height: 80vh;
+}
+
+.track{
+    color: white;
+    border: 1px solid white;
+    font-size: 2vw;
+}
+
+#track-list{
+    float: right;
+    height: 100vh;
+    width: 30vw;
+    overflow-y: scroll;
+}
+
+#btn-login{
+    /*display: none;*/
+    transform: translate3d(25vw, 25vh, 0);
+    width: 50vw;
+    height: 50vh;
+    font-size: 5em;
+    border-radius: 1vw;
+    border: none;
+    position: absolute;
+    z-index: 100;
+}
+
+#controls{
+    width: 65;
+    height: 15vh;
+    margin-top: 4vh;
+}
+
+#btn-next{
+    color: white;
+    background-color: transparent;
+    width: 65vw;
+    border: none;
+    height: 15vh;
+}
